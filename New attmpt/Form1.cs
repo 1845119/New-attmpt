@@ -28,5 +28,10 @@ namespace New_attmpt
                 MessageBox.Show("Login Failed");
             }
         }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
