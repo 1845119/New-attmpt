@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnRadio = new System.Windows.Forms.Button();
+            this.frmCheck = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -108,7 +109,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(21, 162);
+            this.btnExit.Location = new System.Drawing.Point(22, 345);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 3;
@@ -118,7 +119,7 @@
             // 
             // btnRadio
             // 
-            this.btnRadio.Location = new System.Drawing.Point(303, 47);
+            this.btnRadio.Location = new System.Drawing.Point(265, 49);
             this.btnRadio.Name = "btnRadio";
             this.btnRadio.Size = new System.Drawing.Size(75, 23);
             this.btnRadio.TabIndex = 4;
@@ -126,11 +127,22 @@
             this.btnRadio.UseVisualStyleBackColor = true;
             this.btnRadio.Click += new System.EventHandler(this.btnRadio_Click);
             // 
+            // frmCheck
+            // 
+            this.frmCheck.Location = new System.Drawing.Point(265, 78);
+            this.frmCheck.Name = "frmCheck";
+            this.frmCheck.Size = new System.Drawing.Size(75, 23);
+            this.frmCheck.TabIndex = 5;
+            this.frmCheck.Text = "check box";
+            this.frmCheck.UseVisualStyleBackColor = true;
+            this.frmCheck.Click += new System.EventHandler(this.frmCheck_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.frmCheck);
             this.Controls.Add(this.btnRadio);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.button1);
@@ -155,6 +167,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnRadio;
+        private System.Windows.Forms.Button frmCheck;
     }
 }
 

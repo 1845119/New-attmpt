@@ -98,5 +98,11 @@ namespace New_attmpt
             frmRadio frm = new frmRadio();
             frm.ShowDialog();
         }
+
+        private void frmCheck_Click(object sender, EventArgs e)
+        {
+            frmCheck frm = new frmCheck();
+            frm.ShowDialog();
+        }
     }
 }
