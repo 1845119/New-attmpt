@@ -38,6 +38,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnRadio = new System.Windows.Forms.Button();
             this.frmCheck = new System.Windows.Forms.Button();
+            this.frmOperators = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -137,11 +138,22 @@
             this.frmCheck.UseVisualStyleBackColor = true;
             this.frmCheck.Click += new System.EventHandler(this.frmCheck_Click);
             // 
+            // frmOperators
+            // 
+            this.frmOperators.Location = new System.Drawing.Point(557, 301);
+            this.frmOperators.Name = "frmOperators";
+            this.frmOperators.Size = new System.Drawing.Size(75, 23);
+            this.frmOperators.TabIndex = 6;
+            this.frmOperators.Text = "operators";
+            this.frmOperators.UseVisualStyleBackColor = true;
+            this.frmOperators.Click += new System.EventHandler(this.frmOperators_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.frmOperators);
             this.Controls.Add(this.frmCheck);
             this.Controls.Add(this.btnRadio);
             this.Controls.Add(this.btnExit);
@@ -168,6 +180,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnRadio;
         private System.Windows.Forms.Button frmCheck;
+        private System.Windows.Forms.Button frmOperators;
     }
 }
 

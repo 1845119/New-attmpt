@@ -104,5 +104,11 @@ namespace New_attmpt
             frmCheck frm = new frmCheck();
             frm.ShowDialog();
         }
+
+        private void frmOperators_Click(object sender, EventArgs e)
+        {
+            frmOperators frm = new frmOperators();
+            frm.ShowDialog();
+        }
     }
 }
